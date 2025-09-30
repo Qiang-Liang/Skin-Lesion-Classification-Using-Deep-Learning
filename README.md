@@ -6,9 +6,11 @@
 
 ## 数据集
 
-本项目使用的数据集是 [请在此处填写您使用的数据集名称，例如 HAM10000]。
+本项目使用的数据集是 ISIC-2018 challenge dataset
+Dataset URL : https://challenge.isic-archive.com/data/#2018
+数据集网址： https://challenge.isic-archive.com/data/#2018
 
-该数据集包含了多种皮肤病变的图像，涵盖了 [请填写类别，例如：黑色素瘤、基底细胞癌、良性角化病等] 等多种类别。
+该数据集包含了多种皮肤病变的图像，涵盖了 黑色素瘤 (MEL)、痣 (NV)、基底细胞癌 (BCC)、光化性角化病和上皮内癌 (AKIEC)、良性角化病样病变 (BKL)、皮肤纤维瘤 (DF)、血管病变 (VASC) 等多种类别。
 
 数据预处理步骤包括：
 - 图像尺寸调整
@@ -19,7 +21,7 @@
 
 ```
 .
-├── 9444project.ipynb   # 项目核心代码，包含数据处理、模型构建、训练和评估
+├── Skin-Lesion-Classification-Using-Deep-Learning.ipynb   # 项目核心代码，包含数据处理、模型构建、训练和评估
 └── README.md           # 项目说明文件
 ```
 
@@ -36,18 +38,6 @@
 - [ ] 自定义CNN模型
 
 ## 环境要求
-
-为了运行此项目，您需要安装以下依赖库。建议创建一个虚拟环境以避免包版本冲突。
-
-```bash
-pip install -r requirements.txt
-```
-
-您可以运行以下命令生成 `requirements.txt` 文件：
-
-```bash
-pip freeze > requirements.txt
-```
 
 主要依赖库包括：
 - Python (建议版本 3.7+)
@@ -75,9 +65,9 @@ pip freeze > requirements.txt
     请从 [数据集来源链接] 下载数据集，并将其放置在正确的目录下（如果代码中有指定）。
 
 4.  **运行项目**
-    使用 Jupyter Notebook 打开 `9444project.ipynb` 文件，并按顺序执行代码单元格。
+    使用 Jupyter Notebook 打开 `Skin-Lesion-Classification-Using-Deep-Learning.ipynb` 文件，并按顺序执行代码单元格。
     ```bash
-    jupyter notebook 9444project.ipynb
+    jupyter notebook Skin-Lesion-Classification-Using-Deep-Learning.ipynb
     ```
 
 ## 结果
@@ -101,3 +91,4 @@ pip freeze > requirements.txt
 ## 许可证
 
 本项目采用 [MIT](https://opensource.org/licenses/MIT) 许可证。
+
